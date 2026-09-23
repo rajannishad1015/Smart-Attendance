@@ -94,6 +94,22 @@ stop_all.bat
 
 ---
 
+### 🔬 Option C: Faculty Demonstration & ML Evaluation Notebook (Jupyter)
+For presenting in front of teachers, project review panels, or viva examiners:
+- **Jupyter Notebook**: [`SmartAttend_AI_Teacher_Presentation.ipynb`](SmartAttend_AI_Teacher_Presentation.ipynb)
+- **Demo Dataset**: [`student_demo_dataset.csv`](student_demo_dataset.csv)
+
+**What it showcases:**
+1. **Live Data Ingestion**: Imports collegiate records from `student_demo_dataset.csv`.
+2. **Attendance Risk Classification**: Predicts `LOW`, `MEDIUM`, `HIGH` risk with **~89.2% Accuracy**, detailed precision/recall/F1 table, Confusion Matrix, and Feature Importance attribution.
+3. **Grade Forecasting Regressor**: Predicts final examination score with **$R^2 \approx 0.86$**, **$\text{RMSE} \approx 3.8$ marks**, and confidence bands.
+4. **Pedagogical Personas (K-Means)**: Groups students into 4 teaching personas (*Star Performers*, *At-Risk Inconsistent*, *Dedicated Improvers*, *Disengaged*).
+5. **Anomaly Detection (Isolation Forest)**: Flags proxy or suspicious presence anomalies.
+6. **Interactive Live Predictor**: Enter any student Roll No. (e.g. `S101`, `S102`) or custom values to generate an instant multi-model evaluation card with targeted interventions.
+*(All outputs and charts are already pre-rendered in the notebook for immediate presentation!)*
+
+---
+
 ### 🛠️ Option B: Manual Command Line Launch
 
 #### 1. Backend API (FastAPI)
