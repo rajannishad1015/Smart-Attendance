@@ -94,10 +94,11 @@ stop_all.bat
 
 ---
 
-### 🔬 Option C: Faculty Demonstration & ML Evaluation Notebook (Jupyter)
+### 🔬 Option C: Faculty Demonstration & ML Evaluation Notebooks (Jupyter)
 For presenting in front of teachers, project review panels, or viva examiners:
-- **Jupyter Notebook**: [`SmartAttend_AI_Teacher_Presentation.ipynb`](SmartAttend_AI_Teacher_Presentation.ipynb)
-- **Demo Dataset**: [`student_demo_dataset.csv`](student_demo_dataset.csv)
+- **Clean Official Academic Demo**: [`SmartAttend_AI_Project_Demonstration.ipynb`](SmartAttend_AI_Project_Demonstration.ipynb) *(Pure technical explanations, no student scripts)*
+- **Presentation & Viva Prep Version**: [`SmartAttend_AI_Teacher_Presentation.ipynb`](SmartAttend_AI_Teacher_Presentation.ipynb) *(Includes speaking scripts & viva defense guide)*
+- **Demo Dataset**: [`student_demo_dataset.csv`](student_demo_dataset.csv) *(Works locally & in Google Colab)*
 
 **What it showcases:**
 1. **Live Data Ingestion**: Imports collegiate records from `student_demo_dataset.csv`.
