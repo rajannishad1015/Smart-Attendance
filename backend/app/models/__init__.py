@@ -1,0 +1,17 @@
+from backend.app.models.entities import (
+    User,
+    Classroom,
+    RadarDevice,
+    RadarEvent,
+    AttendanceSession,
+    AttendanceRecord,
+    AttendanceAuditLog,
+    Subject,
+    Quiz,
+    QuizQuestion,
+    QuizAttempt,
+    Assignment,
+    AssignmentSubmission,
+    StudentMetrics,
+    MLStudentInsight,
+)
