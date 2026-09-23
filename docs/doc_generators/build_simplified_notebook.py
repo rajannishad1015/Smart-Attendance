@@ -182,9 +182,13 @@ c2_exp = """---
 """
 nb.cells.append(new_markdown_cell(c2_exp))
 
-# Cell 3: Load Data
-c3_code = """# Step 2: Load student dataset from CSV
-df = pd.read_csv('student_demo_dataset.csv')
+# Cell 3: Load Data (Works both Locally and in Google Colab)
+c3_code = """# Step 2: Load student dataset (Works on Local PC & Google Colab)
+csv_file = 'student_demo_dataset.csv'
+github_url = 'https://raw.githubusercontent.com/rajannishad1015/Smart-Attendance/main/student_demo_dataset.csv'
+
+# If file exists locally load it, otherwise auto-download from GitHub (for Google Colab)
+df = pd.read_csv(csv_file if os.path.exists(csv_file) else github_url)
 
 print(f"Total Students in Dataset: {len(df)}")
 # Showing first 5 students
